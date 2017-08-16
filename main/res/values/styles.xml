@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">#3366CC</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#003399</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- SearchView -->
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+    </style>
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView" />
+
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+
+    <style name="notitle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

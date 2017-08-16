@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/mv_activity_top" />
+    <!--ToolBar-->
+    <!--<include layout="@layout/activity_toolbar" />-->
+    <!--DrawerLayout-->
+    <!--<android.support.v4.widget.DrawerLayout-->
+        <!--android:id="@+id/dl_drawer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--&lt;!&ndash;Main Content&ndash;&gt;-->
+        <!--&lt;!&ndash;<include layout="@layout/mv_activity_main_content" />&ndash;&gt;-->
+        <!--&lt;!&ndash;Main Menu&ndash;&gt;-->
+        <!--<include layout="@layout/activity_main_menu" />-->
+    <!--</android.support.v4.widget.DrawerLayout>-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+    <include layout="@layout/activity_bottom" />
+
+</LinearLayout>

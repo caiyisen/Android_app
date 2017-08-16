@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/mv_activity_top_new" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#BFBFBF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/new_text"
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:text="取个快递？"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="0dp"
+            android:background="#BFBFBF"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="12dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/add"/>
+            <TextView
+                android:id="@+id/auto_location"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:text="广州市番禺区大学城外环东路"/>
+
+            <Button
+                android:layout_marginTop="-1dp"
+                android:id="@+id/changelocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="0dp"
+                android:textColor="#000000"
+                android:text="修改位置"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/underline1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="3dp"
+        android:background="#BFBFBF"/>
+    <Button
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/title_bar"
+        android:text="发 布"
+        android:textSize="25dp"/>
+
+</LinearLayout>
